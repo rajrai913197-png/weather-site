@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #main-div{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background: linear-gradient(45deg, #3023ae 0%, #53a0fd 100%);
     display: flex;
