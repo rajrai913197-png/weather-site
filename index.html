@@ -16,23 +16,23 @@
           <p>Get the latest weather info</p>
           </div>
           <div id="nav-bar">  
-           <input type="text" id="inpbtn" placeholder="Enter your city">
-           <button id="submit-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+           <input type="text" id="inpbtn" placeholder="Enter your city" >
+           <button id="submit-btn" onclick="button()" ><i class="fa-solid fa-magnifying-glass"></i></button>
           </div>
           <!-- info -->
           <div id="div-info">
             <div id="main-info">
-              <div id="div-city">
-              <div style="display: flex; align-items: center; gap: 5px;">
-               <h5 style="font-size: 15px; font-style: italic; font-weight: 500;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">City Name - :</h5>
-               <p>Bhopal</p>
+              <div id="div-city" style="padding-bottom: 5px;">
+              <div style="display: flex; align-items: center; gap:  5px;">
+               <h5 style="font-size: 15px;  font-weight: 500;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">City Name - :</h5>
+               <p id="home">----</p>
               </div>
-              <h5 style="font-size: 20px; font-weight: 500; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-style: italic;">Sunny</h5>
+              <h5  id="mosam"  style="font-size: 15px; font-weight: 600; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(254, 254, 255); ">Current Weather -</h5>
               <div>
                 <h1 id="main-deg">28&deg;C</h1>
                 <div style="display: flex; align-items: center; gap: 5px;">
-                  <h5 style="font-size: 15px; font-style: italic; font-weight: 500;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Feels like - :</h5>
-                  <h5>30&deg;C</h5>
+                  <h5 style="font-size: 15px;  font-weight: 500;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Feels like - :</h5>
+                  <h5 id="feel">30&deg;C</h5>
                 </div>
               </div>
              </div>
@@ -41,5 +41,6 @@
           
           </div>
     </div>
+    <script src="logic.js"></script>
 </body>
 </html>

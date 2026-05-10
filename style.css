@@ -79,22 +79,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: small;
 }
-@media (max-width: 500px) {
-    #weather-main-div{
-        width: 300px;
-    }
-   #nav-bar{
-    width: 250px;
-   }
-   #inpbtn{
-    width:150px;
-    height: 30px;
-   }
-   #submit-btn{
-    height: 30px;
-   }
-  
-}
+
 #div-info{
     height: auto;
     width: 100%;
@@ -110,6 +95,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  align-items: center;
  color: white;
  padding-top: 20px;
+
  
 }
 #main-bg{
@@ -117,5 +103,34 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 150px;
 }
 #main-deg{
-    font-size: 70px;
+    font-size: 60px;
+    color: yellow;
+
+}
+@media (max-width: 500px) {
+    #weather-main-div{
+        width: 300px;
+    }
+   #nav-bar{
+    width: 250px;
+   }
+   #inpbtn{
+    width:150px;
+    height: 30px;
+   }
+   #submit-btn{
+    height: 30px;
+   }
+   #main-info{
+    width: 250px;
+   
+   }
+  #main-bg{
+    height: 100px;
+    width: 100px;
+  }
+  #main-deg{
+    font-size: 50px;
+  }
+ 
 }
