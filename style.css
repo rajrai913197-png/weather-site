@@ -104,7 +104,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #main-deg{
     font-size: 60px;
-    color: yellow;
+    color: rgb(255, 85, 0);
 
 }
 @media (max-width: 500px) {
