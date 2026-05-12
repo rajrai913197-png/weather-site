@@ -72,8 +72,8 @@
  align-items: center;
 }
 #navbar{
-    height: 50px;
-    width: 400px;
+    height: 70px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +93,7 @@
 }
 #cancel-btn{
     height: 35px;
-    width: 100px;
+    width: 50px;
     border: none;
     background-color:#1a1c1e ;
     color: #ffffff;
@@ -102,5 +102,5 @@
 }
 #nav-inp{
     display: flex;
-    gap: 15px;
+    gap: 5px;
 }
