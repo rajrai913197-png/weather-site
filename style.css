@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 60px;
 }
 #frame-img{
     height: 100px;
@@ -50,11 +50,16 @@
     flex-direction: column;
 }
 #inner-div{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-right: 20px;
-    padding-left: 40px;
-  text-transform: capitalize;
+   height: 100px;
+   width: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ padding-right: 20px;
+   padding-left: 40px;
+   text-transform: capitalize;
+   gap: 20px;
+ 
    
 }
