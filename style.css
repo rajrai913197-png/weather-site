@@ -79,7 +79,7 @@
     align-items: center;
    
 }
-#loc-inp{
+#inp{
     height: 35px;
     width: 280px;
     border: 1px solid #2c313c;
@@ -91,14 +91,14 @@
    font-family: 'inter',sans-serif;
    font-size: small;
 }
-#cancel-btn{
+#submitBtn{
     height: 35px;
-    width: 50px;
+    width: 35px;
     border: none;
-    background-color:#1a1c1e ;
+    background-color: #1a1c1e ;
     color: #ffffff;
-   font-family: 'inter',sans-serif;
-   font-size: small;
+   font-size: 18px;
+   border-radius: 30px;
 }
 #nav-inp{
     display: flex;
@@ -108,4 +108,9 @@
     height: 500px;
     width: 350px;
     background-color: rgb(73, 107, 137);
+}
+#weather-main{
+    height: 100vh;
+    width: 100%;
+   background-color: #1a1c1e
 }
