@@ -104,3 +104,8 @@
     display: flex;
     gap: 5px;
 }
+#sec-main{
+    height: 500px;
+    width: 350px;
+    background-color: rgb(73, 107, 137);
+}
