@@ -189,6 +189,12 @@
     border-radius: 15px;
     border: none;
     color: #ffffff;
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
 }
 #main-card{
 
@@ -198,4 +204,10 @@
     justify-content: center;
     align-items: center;
    padding: 10px;
+  
+  
 }
+.card-font{
+    font-family: sans-serif;
+    font-size: medium;
+} 
