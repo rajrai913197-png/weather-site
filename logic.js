@@ -8,7 +8,7 @@ let clickBtn=async()=>{
     let res = await fetch(api);
     let data = await res.json()
     console.log(data);
-    // location.href = "weather.html"
+    location.href = "weather.html"
 
 }
 
