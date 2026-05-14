@@ -172,6 +172,23 @@
 }
 #card-div{
     height: 400px;
-    width: 100%;
+    width: 400px;
     background-color: burlywood;
+   display: grid;
+  grid-template-columns: 2fr 1fr ;
+  gap: 10px;
+  
+  
+}
+.cards{
+    height: 100px;
+    width: 150px;
+    background-color: antiquewhite;
+}
+#main-card{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
