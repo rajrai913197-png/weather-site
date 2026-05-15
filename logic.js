@@ -3,9 +3,18 @@ let submit=()=>{
 }
 let clickBtn=async()=>{
     let inp = document.getElementById("inp").value.trim()
-     location.href = "weather.html"
     localStorage.setItem("myCity",inp)
+     location.href = "weather.html"
+   
+   
+ 
+}
+
+let local = ()=>{
+let data = localStorage.getItem("myCity")
+console.log(data);
+
+
 
 }
-let city = localStorage.getItem("myCity")
-console.log(city);
+local()
