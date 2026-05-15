@@ -35,8 +35,10 @@ if (mosam === "Haze") {
      citynew.innerHTML = "dhund levels"
 } 
 let deg = document.getElementById("deg-div")
-deg.innerHTML = main.main.temp;
-
-
+deg.innerHTML = main.main.temp + "&degC";
+let feels = document.getElementById("feels")
+feels.innerHTML = main.main.feels_like + "&degC";
+let winds = document.getElementById("winds")
+winds.innerHTML =main.wind.speed +"&nbsp"+"m/s"
 }
 local()
