@@ -40,5 +40,13 @@ let feels = document.getElementById("feels")
 feels.innerHTML = main.main.feels_like + "&degC";
 let winds = document.getElementById("winds")
 winds.innerHTML =main.wind.speed +"&nbsp"+"m/s"
+let humidity = document.getElementById("humidity")
+  humidity.innerHTML = main.main.humidity
+  let Visibility = document.getElementById("Visibility")
+  Visibility.innerHTML = main.visibility
+  let max = document.getElementById("max")
+  max.innerHTML = main.main.temp_max + "&degC";
+  let pre = document.getElementById("pre")
+  pre.innerHTML = main.main.pressure
 }
 local()
