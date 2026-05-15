@@ -34,7 +34,8 @@ if (mosam === "Rain") {
 if (mosam === "Haze") {
      citynew.innerHTML = "dhund levels"
 } 
-
+let deg = document.getElementById("deg-div")
+deg.innerHTML = main.main.temp;
 
 
 }
